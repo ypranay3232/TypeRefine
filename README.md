@@ -97,15 +97,6 @@ VS Code WebView API
 
 LocalStorage (privacy-first, no telemetry)
 
-## 📦 Packaging & Publishing
-```
-npm install -g vsce
-vsce package
-vsce publish
-```
-
-Requires a VS Code publisher account.
-
 ## 📄 License : MIT
 
 

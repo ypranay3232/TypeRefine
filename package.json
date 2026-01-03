@@ -8,6 +8,7 @@
   "engines": {
     "vscode": "^1.90.0"
   },
+  "license": "MIT",
   "categories": [
     "Other",
     "Formatters","Keymaps","Programming Languages","Education","Linters"
