@@ -5,9 +5,9 @@
   "description": "Adaptive typing trainer for developers with real-time analytics, heatmaps, streaks, and focused practice.",
   "version": "0.1.0",
   "icon": "media/icon.jpg",
-  "engines": {
-    "vscode": "^1.90.0"
-  },
+"engines": {
+    "vscode": "^1.107.0"
+},
   "license": "MIT",
   "categories": [
     "Other",
