@@ -1,0 +1,60 @@
+{
+  "name": "typerefine",
+  "displayName": "TypeRefine",
+  "publisher": "BuddyTools",
+  "description": "Adaptive typing trainer for developers with real-time analytics, heatmaps, streaks, and focused practice.",
+  "version": "0.1.0",
+  "icon": "media/icon.jpg",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters","Keymaps","Programming Languages","Education","Linters"
+  ],
+  "keywords": [
+    "typing",
+    "developer",
+    "practice",
+    "keyboard",
+    "productivity",
+    "focus",
+    "training"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "typerefine.start",
+        "title": "TypeRefine: Start Practice"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ypranay3232/TypeRefine"
+  },
+  "bugs": {
+    "url": "https://github.com/ypranay3232/TypeRefine/issues"
+  },
+  "homepage": "https://github.com/ypranay3232/TypeRefine",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.107.0",
+    "@types/node": "^22.0.0",
+    "@types/mocha": "^10.0.10",
+    "typescript": "^5.9.3",
+    "eslint": "^9.39.1",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
